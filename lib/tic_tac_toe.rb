@@ -89,7 +89,7 @@ class TicTacToe
 
   def winner?
     if won?
-      return win_index_1[0]
+      return won?
     else
       nil
     end
