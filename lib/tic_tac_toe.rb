@@ -87,4 +87,12 @@ class TicTacToe
     draw? || full? || won?
   end
 
+  def winner?
+    if won?
+      return @board[win_combination[0]]
+    else
+      nil
+    end
+  end
+
 end
