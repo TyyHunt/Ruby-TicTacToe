@@ -56,4 +56,8 @@ class TicTacToe
       turn
     end
     display_board
+  end
+
+
+
 end
